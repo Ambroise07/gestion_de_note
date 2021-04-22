@@ -1,0 +1,196 @@
+body {
+    background-color: rgba(240, 244, 247, 1);
+    /*padding-top: 56px;*/
+}
+
+.bg-header {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .5s ease all;
+}
+
+.dropdown-menu.show {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+    transition: .5s ease all;
+}
+
+
+/*All link 
+a{
+  text-decoration: none;
+}
+*/
+
+
+/*MOdify focused effet*li.nav-item.dropdown{
+  padding: 10px;
+  border-color: transparent !important;
+}
+.nav-link.dropdown-toggle:focus{
+  color: #fff;
+  background-color:  transparent !important;;
+  border:none !important;
+}
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+border: 0;
+}
+.nav-tabs .nav-link .active:hover,
+.nav-tabs .nav-link .active:focus{
+  border-bottom: none;
+}
+/*For shopping cart and badge count position*/
+
+.cart-a {
+    position: absolute;
+}
+
+.form-search {
+    margin-top: 50px;
+}
+
+
+/*account*/
+
+.cart-r {
+    position: relative;
+    top: 9px;
+    left: 9px;
+    margin: 8px !important;
+}
+
+
+/*separator */
+
+.hr {
+    border: 1px dashed rgb(102, 124, 194);
+    width: 75%;
+}
+
+
+/*For boostrap toggler outline remove */
+
+.btn-toggler {
+    border: none;
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+/*shop-count For items in shopping-cart*/
+
+.shop-count,
+.add {
+    cursor: pointer;
+}
+
+
+/*Braind page info custom*/
+
+.title-page {
+    color: inherit;
+    font-family: fantasy;
+    font-size: 25px;
+    /*margin-left: 25px;*/
+}
+
+
+/**Design about product of price reduce**/
+
+.stricke {
+    text-decoration: line-through;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.no-stricke {
+    font-weight: bold;
+    font-family: cursive;
+    color: chocolate;
+}
+
+.promo-title {
+    font-size: smaller;
+}
+
+
+/*card hover 
+.card :hover{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}*/
+
+.card-hover-me:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25) !important;
+}
+
+
+/*Product price */
+
+.product-price {
+    font-family: fantasy;
+    cursor: default;
+}
+
+
+/*Recent Porduct*/
+
+.recent_prod-header {
+    text-align: center;
+}
+
+.recent_prod-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+
+/**Comment card and recent product*/
+
+.recent_prod {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.recent_prod-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.recent_prod-name {
+    font-weight: bold;
+}
+
+.recent_prod-content {
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    margin-top: 0.9rem;
+    display: -ms-flexbox;
+}
